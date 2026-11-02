@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw scraped data (check the source sites' terms before publishing these)
+data/players.csv.gz
+data/ml_dataset_raw.csv
+data/prem_stats.csv
+Prem_Stats.csv

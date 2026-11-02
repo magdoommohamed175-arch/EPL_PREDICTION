@@ -1,0 +1,28 @@
+{
+  "target": "Market_Value_EUR",
+  "features": [
+    "Age",
+    "Minutes",
+    "Goals",
+    "Assists",
+    "xG",
+    "xA"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "linear_regression_raw": {
+    "MAE": 15067176.184567217,
+    "RMSE": 22517822.57261518,
+    "R2": 0.4245681927543392
+  },
+  "linear_regression_log": {
+    "MAE": 15566110.491977656,
+    "RMSE": 25135897.662461422,
+    "R2": 0.2829822986260857
+  },
+  "mean_predictor": {
+    "MAE": 17893923.010380622,
+    "RMSE": 29865180.151643254,
+    "R2": -0.012211707225404655
+  }
+}

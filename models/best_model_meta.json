@@ -1,0 +1,29 @@
+{
+  "model": "Ridge (log y)",
+  "features": [
+    "Age",
+    "Age_over_27",
+    "Log_Minutes",
+    "Goals",
+    "Assists",
+    "xG",
+    "xA",
+    "Goals_p90",
+    "Assists_p90",
+    "xG_p90",
+    "xA_p90",
+    "GA_p90",
+    "xGI_p90",
+    "Goals_minus_xG",
+    "Team",
+    "Primary_Position"
+  ],
+  "target": "Market_Value_EUR",
+  "cv_mae_train": 10276179.58109229,
+  "test_metrics": {
+    "MAE": 9688135.194947291,
+    "RMSE": 15339847.185739392,
+    "R2": 0.7329558030773511
+  },
+  "note": "Test metrics come from a model fit on 80% of players; the saved model is refit on all players."
+}
